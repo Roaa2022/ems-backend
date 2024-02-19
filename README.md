@@ -32,9 +32,9 @@ Once the application is up and running, you can interact with it using any HTTP 
 Endpoints
 The following endpoints are available for CRUD operations on employee data:
 
-GET /employees: Retrieve all employees.
-GET /employees/{id}: Retrieve an employee by ID.
-POST /employees: Create a new employee.
-PUT /employees/{id}: Update an existing employee.
-DELETE /employees/{id}: Delete an employee by ID.
+GET api/employees: Retrieve all employees.
+GET api/employees/{id}: Retrieve an employee by ID.
+POST api/employees: Create a new employee.
+PUT api/employees/{id}: Update an existing employee.
+DELETE api/employees/{id}: Delete an employee by ID.
 
